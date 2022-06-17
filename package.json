@@ -1,0 +1,23 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "learning js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-tkachuk/frontend-project-lvl1.git"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "author": "mrtkachuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-tkachuk/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/mr-tkachuk/frontend-project-lvl1#readme"
+}
