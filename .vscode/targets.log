@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 18 16:11:43 2022
+# Make data base, printed on Fri Jun 24 20:22:35 2022
 
 # Variables
 
@@ -23,7 +23,7 @@ USERPROFILE = C:\Users\�����
 # environment
 LOCALAPPDATA = C:\Users\�����\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-6e9344c5-0bb9-43e9-a1d8-c448f565e09b-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-1ab01606-520c-40d5-b40a-9f6610578e13-sock
 # environment
 VSCODE_CWD = F:\frontend-project-lvl1
 # environment
@@ -39,7 +39,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5668_YLGLLQBAYGINQNVB
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_284_CSKUJTTMYTQZITIR
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -95,7 +95,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 5668
+VSCODE_PID = 284
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -196,8 +196,7 @@ VSCODE_IPC_HOOK = \\.\pipe\f6df6e2e955e49b133539cb54ee58642-1.68.1-main-sock
 <F = $(notdir $<)
 # default
 SUFFIXES := 
-# en 
-vironment
+# environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
@@ -239,13 +238,13 @@ lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 8):
+#  recipe to execute (from 'Makefile', line 10):
 	npx eslint
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-18 08:25:52
+#  Last modified 2022-06-18 17:53:13
 #  File has been updated.
 #  Successfully updated.
 
@@ -266,8 +265,15 @@ publish:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 6):
+#  recipe to execute (from 'Makefile', line 8):
 	npm publish --dry-run
+
+brain-even:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 6):
+	node bin/brain-even.js
 
 install:
 #  Implicit rule search has not been done.
@@ -277,19 +283,19 @@ install:
 	npm ci
 
 # files hash-table stats:
-# Load=8/1024=1%, Rehash=0, Collisions=0/18=0%
+# Load=9/1024=1%, Rehash=0, Collisions=0/19=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 21 / storage = 178 B / avg = 8 B
-# current buf: size = 8174 B / used = 178 B / count = 21 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 189 B / avg = 8 B
+# current buf: size = 8174 B / used = 189 B / count = 22 / avg = 8 B
 
-# strcache performance: lookups = 29 / hit rate = 27%
+# strcache performance: lookups = 31 / hit rate = 29%
 # hash-table stats:
-# Load=21/8192=0%, Rehash=0, Collisions=0/29=0%
-# Finished Make data base on Sat Jun 18 16:11:43 2022
+# Load=22/8192=0%, Rehash=0, Collisions=0/31=0%
+# Finished Make data base on Fri Jun 24 20:22:35 2022
 
  
