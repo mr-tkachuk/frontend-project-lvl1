@@ -1,5 +1,5 @@
 import playGame from '../index.js';
-import { getRandomNumber } from '../common-functions.js';
+import getRandomNumber from '../common-functions.js';
 
 const getProgressionLength = () => {
   const minLength = 5;

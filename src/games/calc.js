@@ -1,35 +1,42 @@
 import playGame from '../index.js';
-import { getRandomNumber } from '../common-functions.js';
+import getRandomNumber from '../common-functions.js';
 
-const makePair = () => {
+const getRandomSign = () => {
   const signs = ['+', '-', '*'];
-  const minNumber = 0;
-  const maxNumber = 100;
   const firstIndexOfSigns = 0;
   const lastIndexOfSigns = 2;
   const randomIndexOfSign = getRandomNumber(firstIndexOfSigns, lastIndexOfSigns);
-  const randomSign = signs[randomIndexOfSign];
-  const firstNumber = getRandomNumber(minNumber, maxNumber);
-  const secondNumber = getRandomNumber(minNumber, maxNumber);
+  return signs[randomIndexOfSign];
+};
 
-  const question = `${firstNumber} ${randomSign} ${secondNumber}`;
+const getAnswer = (firstNumber, secondNumber, sign) => {
+  let answer;
 
-  let correctAnswer;
-
-  switch (randomSign) {
+  switch (sign) {
     case '+':
-      correctAnswer = firstNumber + secondNumber;
+      answer = firstNumber + secondNumber;
       break;
     case '-':
-      correctAnswer = firstNumber - secondNumber;
+      answer = firstNumber - secondNumber;
       break;
     case '*':
-      correctAnswer = firstNumber * secondNumber;
+      answer = firstNumber * secondNumber;
       break;
     default:
       console.log('Error');
   }
-  return [question, String(correctAnswer)];
+  return String(answer);
+};
+
+const makePair = () => {
+  const randomSign = getRandomSign();
+  const minNumber = 0;
+  const maxNumber = 100;
+  const firstNumber = getRandomNumber(minNumber, maxNumber);
+  const secondNumber = getRandomNumber(minNumber, maxNumber);
+  const question = `${firstNumber} ${randomSign} ${secondNumber}`;
+  const answer = getAnswer(firstNumber, secondNumber, randomSign);
+  return [question, answer];
 };
 
 const brainCalc = () => {

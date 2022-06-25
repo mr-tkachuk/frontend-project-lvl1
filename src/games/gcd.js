@@ -1,5 +1,5 @@
 import playGame from '../index.js';
-import { getRandomNumber } from '../common-functions.js';
+import getRandomNumber from '../common-functions.js';
 
 const findGcd = (num1, num2) => {
   if (num2 > num1) return findGcd(num2, num1);
