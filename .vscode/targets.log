@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 25 07:09:55 2022
+# Make data base, printed on Sat Jun 25 09:23:57 2022
 
 # Variables
 
@@ -23,7 +23,7 @@ USERPROFILE = C:\Users\�����
 # environment
 LOCALAPPDATA = C:\Users\�����\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-cbe9350d-7ff3-407d-bf34-e1a0e61fb780-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a0480284-64da-4634-a465-0a90b370b2b6-sock
 # environment
 VSCODE_CWD = F:\frontend-project-lvl1
 # environment
@@ -39,7 +39,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8400_FQQSMMYAMFWTSHJY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4132_RGSFXRHSSCZTPELT
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -95,7 +95,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 8400
+VSCODE_PID = 4132
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -296,6 +296,6 @@ install:
 # strcache performance: lookups = 31 / hit rate = 29%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Sat Jun 25 07:09:55 2022
+# Finished Make data base on Sat Jun 25 09:23:57 2022
 
  
