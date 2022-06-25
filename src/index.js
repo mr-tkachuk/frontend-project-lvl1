@@ -26,6 +26,12 @@ const congratUser = (userName) => console.log(`Congratulations, ${userName}!`);
 
 const invitePlayMore = (userName) => console.log(`Let's try again, ${userName}!`);
 
+const getPairs = (makePair) => {
+  const roundPairs = new Array(3);
+  roundPairs.fill([]);
+  return roundPairs.map(makePair);
+};
+
 const playRound = (previousResult, nextRound) => {
   let result = previousResult;
   if (result) {
@@ -44,9 +50,7 @@ const playGame = ({ rule, makePair }) => {
 
   showRule(rule);
 
-  let roundPairs = new Array(3);
-  roundPairs.fill([]);
-  roundPairs = roundPairs.map(makePair);
+  const roundPairs = getPairs(makePair);
 
   const result = roundPairs.reduce(playRound, true);
 
